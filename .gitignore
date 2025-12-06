@@ -1,0 +1,15 @@
+# Raw data (large files)
+data/raw/
+
+# Virtual env
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# macOS
+.DS_Store
+
