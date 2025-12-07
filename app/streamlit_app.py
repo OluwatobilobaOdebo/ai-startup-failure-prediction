@@ -1,11 +1,20 @@
 import pandas as pd
 import streamlit as st
 import altair as alt
+from pathlib import Path
 
 # ---------- Load data ----------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/processed/startup_risk_dashboard.csv")
+    # Directory of this file: /mount/src/ai-startup-failure-prediction/app
+    here = Path(__file__).parent
+
+    # Repo root is one level up from app/
+    repo_root = here.parent
+
+    csv_path = repo_root / "data" / "processed" / "startup_risk_dashboard.csv"
+
+    df = pd.read_csv(csv_path)
     return df
 
 df = load_data()
