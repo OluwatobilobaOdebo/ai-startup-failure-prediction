@@ -54,8 +54,8 @@ This project showcases applied machine learning, data storytelling, analytics en
 ## Dataset Description
 
 ### **Source**  
-**Startup Failure Prediction Dataset** 
-https://www.kaggle.com/datasets/sakharebharat/startup-failure-prediction-dataset
+**Startup Success Prediction Dataset** 
+https://www.kaggle.com/datasets/manishkc06/startup-success-prediction
 
 | Feature | Description |
 |--------|-------------|
